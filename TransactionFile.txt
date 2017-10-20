@@ -1,0 +1,81 @@
+CreateNewPatient Joe Garcia 432345673 M 33 400 4 12 2017
+CreateNewPatient Amelia Perez 876007654 F 25 500 4 12 2017
+CreateNewPatient Bob Haynes 456539872 M 59 550 13 12 2017
+CreateNewPatient Tim Ducrest 123282345 M 43 600 4 12 2017
+CreateNewPatient Kevin Garcia 987657655 M 6 350 4 13 2017
+CreateNewPatient Suzy Walter 876523067 F 65 400 4 13 2017
+CreateNewPatient Fang Yi 902450098 F 32 400 4 13 2017
+CreateNewPatient Amelia Perez 876007654 F 25 500 4 12 2017
+CreateNewPatient Robert James 241767676 M 39 700 4 14 2017
+CreateNewPatient Mary Palmer 560915454 F 35 600 4 14 2017
+CreateNewPatient Mireille Sage 129093456 F 7 400 4 14 2017
+CreateNewPatient Julia Pompano 492686987 F 77 400 4 15 2017
+CreateNewPatient Suzy Walter 987667654 F 22 300 4 15 2017
+
+PrintAllPatientAccounts
+
+CreateNewSurgery 100 Tonsillectomy 5450.00
+CreateNewSurgery 110 Sinus 4000.00
+CreateNewSurgery 120 Foot 6350.00
+CreateNewSurgery 130 KneeReplacement 39500.00
+CreateNewSurgery 140 Shoulder 15000.00
+CreateNewSurgery 150 Appendectomy 18000.00
+CreateNewSurgery 120 Hernia 4000.00
+
+PrintAllSurgeries
+
+CreateNewMedication 200 Antibiotic 300.00
+CreateNewMedication 205 AntiNausea 400.00
+CreateNewMedication 210 AntiInflamatory 500.00
+CreateNewMedication 215 LightPain 100.00
+CreateNewMedication 220 StrongPain 200.00
+CreateNewMedication 225 Allergen -100.00
+
+PrintAllMedications
+
+AddPatientSurgery 100 1003
+AddPatientSurgery 100 1008
+AddPatientSurgery 100 1010
+AddPatientSurgery 160 1003
+AddPatientSurgery 110 1006
+AddPatientSurgery 110 1007
+AddPatientSurgery 110 1010
+AddPatientSurgery 110 1000
+AddPatientSurgery 120 1001
+AddPatientSurgery 120 1011
+AddPatientSurgery 130 1009
+AddPatientSurgery 130 1004
+AddPatientSurgery 140 1005
+AddPatientSurgery 150 1009
+
+AddPatientMedication 205 1003
+AddPatientMedication 200 1010
+AddPatientMedication 215 1003
+AddPatientMedication 215 1008
+AddPatientMedication 215 1010
+AddPatientMedication 220 1006
+AddPatientMedication 220 1007
+AddPatientMedication 220 1000
+AddPatientMedication 210 1001
+AddPatientMedication 220 1012
+AddPatientMedication 220 1009
+AddPatientMedication 220 1004
+AddPatientMedication 210 1005
+AddPatientMedication 225 1003
+
+DischargePatient 1002 4 17 2017
+DischargePatient 1003 4 18 2017
+DischargePatient 1005 4 20 2017
+DischargePatient 1006 4 13 2017
+DischargePatient 1007 4 20 2017
+DischargePatient 1010 4 22 2017
+DischargePatient 1012 4 25 2017
+
+PrintAllPatientAccounts
+
+CalculatePatientBill 1002
+CalculatePatientBill 1003
+CalculatePatientBill 1005
+CalculatePatientBill 1007
+CalculatePatientBill 1008
+CalculatePatientBill 1010
